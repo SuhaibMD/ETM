@@ -1,0 +1,16 @@
+.header {
+  margin-bottom: 0.5rem;
+  background-color: rgba(243, 242, 242, 0.781);
+  min-height: 0.2rem;
+  padding: 0.5rem;
+}
+.header .bi-arrow-left {
+  /* display: flex; */
+
+  position: absolute;
+  top: 0.8rem;
+  left: 1rem;
+}
+.header p {
+  text-align: center;
+}

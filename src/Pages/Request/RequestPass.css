@@ -1,0 +1,135 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 550;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+body{
+  height: 120vh;
+}
+.parent {
+  margin: 0.3rem 0 0.5rem 0;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  background-color: rgba(243, 242, 242, 0.781);
+  gap: 0.6rem;
+}
+.status_group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.bi-pencil {
+  /* background: linear-gradient(#e66465, #9198e5); */
+/*   fill: aqua; */
+}
+.status_G {
+/*   color: rgb(48, 243, 48); */
+  color:green;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+  padding-bottom: 0.5rem;
+}
+.route {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: -1.5rem;
+}
+
+.btn_C {
+  color: rgb(216, 23, 23);
+  background-color: white;
+  padding: 4px;
+  border: 2px solid rgb(216, 23, 23);
+  border-radius: 3px;
+  box-shadow: none;
+  border-style: solid;
+  font-weight: 700;
+}
+.Expired{
+  color : sandybrown;
+}
+.ic1 {
+  content: "  ";
+  display: block;
+  position: relative;
+  height: 8px;
+  width: 8px;
+  left: 1.2px;
+  top: 40px;
+  border: 1px solid green;
+
+  background-color: green;
+
+  /* background-color: red; */
+  border-radius: 100%;
+  color: black;
+}
+
+.ic2 {
+  content: "  ";
+  display: block;
+  height: 8px;
+  width: 8px;
+  left: 1.2px;
+  position: relative;
+  top: 51px;
+  border: 1px solid red;
+
+  border-radius: 50%;
+  color: black;
+}
+.ic {
+  content: "  ";
+  display: block;
+  height: 5px;
+  position: relative;
+  border-radius: 100%;
+  left: 3.5px;
+
+  background-color: gray;
+  width: 5px;
+  color: black;
+}
+/* .ic3 {
+  top: 38px;
+} */
+.ic4 {
+  top: 45px;
+}
+.ic5 {
+  top: 47px;
+}
+.ic3 {
+  top: 43px;
+}
+.routeP {
+  margin-top:0.3rem;
+  margin-bottom: 0.5rem;
+  margin-left: 1.3rem;
+}
+.details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+.details p {
+  color: gray;
+  font-size: 15px;
+  font-weight: 540;
+}
+
+.time {
+  display: flex;
+  justify-content: space-between;
+}
